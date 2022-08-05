@@ -11,6 +11,9 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 project.version = scmVersion.version
 scmVersion {
+	release{
+		customUsername="bmardis1"
+	}
 	tag {
 		prefix.set(rootProject.name)
 	}
